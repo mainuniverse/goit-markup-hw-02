@@ -1,0 +1,42 @@
+/* Colors */
+:root {
+--primary-text-color:#757575;
+--primary-background-color: #e5e5e5;
+--secondary-text-color: #212121;
+--secondary-background-color: #2196F3
+--accent-color: #2196F3;
+--accent-color-background: #2F303A;
+--white-color:  #FFFFFF;
+--black-color: #000000;
+
+}
+
+
+body {
+  background-color: var (--primary-background-color);
+  color: var (--primary-text-color);
+  width: 1600px;
+  list-style: none;
+}
+
+.page-header{
+  display: inline-block;
+  color: var (--primary-text-color);
+  list-style: none;
+}
+
+.container {
+  min-width: 1600px;
+  list-style: none;
+}
+.logo {
+}
+
+.button {
+  background-color: var (--accent-color);
+
+}
+.btn-primary {
+}
+.btn-secondary {
+}
