@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=e, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!-- Header -->
-    <header class="page-header">
+    <header class="page-header" >
         <div class="container">
-            <a href="#">WebStudio</a>
-                <nav>
-                    <ul>
-                        <li><a  href="#">Студия</a></li>
-                        <li><a href="#">Портфолио</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
-                </nav>
-                <ul>
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <a href="#" class="logo">Web<span class="logo-part">Studio</span></a>
+            <nav>
+                <ul class="site-nav list">
+                    <li><a href="./index.html" class="link">Студия</a></li>
+                    <li><a href="#" class="link">Портфолио</a></li>
+                    <li><a href="#footer" class="link">Контакты</a></li>
                 </ul>
+            </nav>
+            <ul class="auth-nav list">
+                <li><a href="mailto:info@devstudio.com" class="link tel-mail">info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="link tel-mail">+38 096 111 11 11</a></li>
+            </ul>
         </div>
     </header>
     <!-- Main -->
@@ -30,44 +30,44 @@
             <!-- portfolio menu -->
         <section>
             <div class="container">
-                    <ul>
-                        <li> <h3 class="button btn-primary">Все </h3></li>
-                        <li> <h3 class="button btn-secondary">Веб-сайты </h3></li>
-                        <li> <h3 class="button btn-secondary">Приложения </h3></li>
-                        <li> <h3 class="button btn-secondary">Дизайн </h3></li>
-                        <li> <h3 class="button btn-secondary">Маркетинг </h3></li>
-                    </ul>
+                        <ul class="list">
+                            <li><button type="button" class="button btn-all">Все</button></li>
+                            <li><button type="button" class="button btn-secondary">Веб-сайты</button></li>
+                            <li><button type="button" class="button btn-secondary">Приложения</button></li>
+                            <li><button type="button" class="button btn-secondary">Дизайн</button></li>
+                            <li><button type="button" class="button btn-secondary">Маркетинг</button></li>
+                        </ul>
             </div>
         </section>
         <!--portfolio examples -->
         <section>
             <div class="container">
-                <ul>
-                    <li><h3>Технокряк</h3>  <p>Веб-сайт</p> <img src="images/portfolio1.png" alt="Веб-сайт Технокряк" width="370"></li>
-                    <li><h3>Постер New Orlean vs Golden Star</h3> <p>Дизайн</p> <img src="images/portfolio2.png" alt="Дизайн" width="370"></li>
-                    <li><h3>Ресторан Seafood</h3> <p>Приложение</p> <img src="images/portfolio3.png" alt="Приложение" width="370"></li>
-                    <li><h3>Проект Prime</h3> <p>Маркетинг</p> <img src="images/portfolio4.png" alt="Маркетинг" width="370"></li>
-                    <li><h3>Проект Boxes</h3> <p>Приложение</p> <img src="images/portfolio5.png" alt="Приложение" width="370"></li>
-                    <li><h3>Inspiration has no Borders</h3>  <p>Веб-сайт</p> <img src="images/portfolio6.png" alt="Веб-сайт Inspiration has no Borders" width="370"></li>
-                    <li><h3>Издание Limited Edition</h3> <p>Дизайн</p> <img src="images/portfolio7.png" alt="Дизайн" width="370"></li>
-                    <li><h3>Проект LAB</h3> <p>Маркетинг</p> <img src="images/portfolio8.png" alt="Маркетинг Проект LAB" width="370"></li>
-                    <li><h3>Growing Business</h3> <p>Приложение</p> <img src="images/portfolio9.png" alt="Приложение Growing Business" width="370"></li>
+                <ul class="list">
+                    <li class="projects"><img src="images/portfolio1.png" alt="Веб-сайт Технокряк" width="370"><h3 class="web" >Технокряк</h3>  <p class="web-example">Веб-сайт</p> </li>
+                    <li class="projects"><img src="images/portfolio2.png" alt="Дизайн" width="370"><h3 class="web">Постер New Orlean vs Golden Star</h3> <p class="web-example">Дизайн</p> </li>
+                    <li class="projects"><img src="images/portfolio3.png" alt="Приложение" width="370"><h3 class="web">Ресторан Seafood</h3> <p class="web-example">Приложение</p> </li>
+                    <li class="projects"><img src="images/portfolio4.png" alt="Маркетинг" width="370"><h3 class="web">Проект Prime</h3> <p class="web-example">Маркетинг</p> </li>
+                    <li class="projects"><img src="images/portfolio5.png" alt="Приложение" width="370"><h3 class="web">Проект Boxes</h3> <p class="web-example">Приложение</p> </li>
+                    <li class="projects"><img src="images/portfolio6.png" alt="Веб-сайт Inspiration has no Borders" width="370"><h3 class="web">Inspiration has no Borders</h3>  <p class="web-example">Веб-сайт</p> </li>
+                    <li class="projects"><img src="images/portfolio7.png" alt="Дизайн" width="370"><h3 >Издание Limited Edition</h3 > <p class="web-example">Дизайн</p> </li>
+                    <li class="projects"><img src="images/portfolio8.png" alt="Маркетинг Проект LAB" width="370"><h3 class="web">Проект LAB</h3> <p class="web-example" >Маркетинг</p> </li>
+                    <li class="projects"><img src="images/portfolio9.png" alt="Приложение Growing Business" width="370"><h3 class="web">Growing Business</h3> <p class="web-example">Приложение</p> </li>
                 </ul>
             </div>
         </section>
     </main>
     <!-- Footer -->
-    <footer>
-        <div class="container">  
-            <a href="#">WebStudio</a>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <a href="#" class="logo">Web<span class="logo-footer">Studio</span></a>
             <address>
-                <ul>
-                    <li>г. Киев, пр-т Леси Украинки, 26</li>
-                    <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <ul class="list">
+                    <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
+                    <li><a href="mailto:info@devstudio.com" class="address tel-mail">info@devstudio.com</a></li>
+                    <li><a href="tel:+380961111111" class="address tel-mail">+38 096 111 11 11</a></li>
                 </ul>
-            </address> 
-         </div> 
+            </address>
+        </div>
     </footer>
 </body>
 </html>
