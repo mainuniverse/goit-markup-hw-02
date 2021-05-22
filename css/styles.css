@@ -177,24 +177,21 @@ body {
 .btn-all {
   background-color: var(--accent-color);
   color: var(--white-color);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 26px;
-  letter-spacing: 0.03em;
-  text-align: center;
 }
 .btn-secondary {
   background-color: var(--other-background-color);
   color: var(--primary-text-color);
+}
+.btn-secondary:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+.btn-name {
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0.03em;
   text-align: center;
-}
-.btn-secondary:focus {
-  background-color: var(--accent-color);
-  color: var(--white-color);
 }
 
 /* Portfolio */
