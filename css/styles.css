@@ -196,6 +196,9 @@ body {
 }
 
 /* Portfolio */
+.hidden {
+  opacity: 0;
+}
 .projects {
   background-color: var(--light-gray-color);
   text-decoration: none;
