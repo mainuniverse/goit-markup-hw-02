@@ -73,7 +73,9 @@ body {
 .tel-mail:focus {
   color: var(--secondary-background-color);
 }
-
+.current {
+  color: var(--accent-color);
+}
 /* section accent */
 .container {
   min-width: 1600px;
