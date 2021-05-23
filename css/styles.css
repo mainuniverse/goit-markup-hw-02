@@ -1,7 +1,6 @@
 /* Colors */
 :root {
   /* background */
-  --primary-background-color: #e5e5e5;
   --secondary-background-color: #2196f3;
   --other-background-color: #f5f4fa;
 
@@ -18,7 +17,6 @@
 }
 
 body {
-  background-color: var(--primary-background-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -26,7 +24,7 @@ body {
   text-decoration: none;
   letter-spacing: 0.03em;
   width: 100%;
-  padding: auto;
+  padding: 0;
   margin: auto;
 }
 .list {
@@ -41,9 +39,8 @@ body {
 }
 .logo {
   color: var(--accent-color);
-  font-family: Oleo Script;
-  font-weight: bold;
-  font-weight: 400;
+  font-family: Raleway;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.383;
   text-decoration: none;
@@ -89,6 +86,7 @@ body {
   font-size: 44px;
   line-height: 1.364;
   text-align: center;
+  text-transform: uppercase;
   margin: 0;
 }
 .hero-items {
@@ -96,6 +94,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 1.142;
+  text-transform: uppercase;
 }
 .hero-details {
   font-size: 14px;
@@ -121,7 +120,6 @@ body {
   font-weight: 700;
   line-height: 1.167;
   text-align: center;
-  font-style: Bold;
 }
 .team-member {
   background-color: var(--white-color);
@@ -174,11 +172,8 @@ body {
 }
 
 /* Portfolio */
-.hidden {
-  opacity: 0;
-}
+
 .projects {
-  background-color: var(--light-gray-color);
   text-decoration: none;
 }
 
@@ -211,13 +206,10 @@ body {
 }
 .address {
   font-family: Roboto;
-  text-decoration: none;
   color: var(--white-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   font-style: normal;
-  text-align: left;
 }
 .address.tel-mail {
   text-decoration: none;
